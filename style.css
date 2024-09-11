@@ -23,6 +23,7 @@ body{
     /* Deixar os objetos empilhados */
     flex-direction: column;
     padding-inline: 80px;
+    background-color: #f7e5e4 ;
 }
 header{
     height: 200px;
@@ -34,7 +35,10 @@ header{
 .logo{
     height: 96px;
     width: 96px;
-    background-color: grey;
+    background-image: url(https://i.pinimg.com/originals/32/0a/68/320a68641e39e08cab4f88595c62a9fc.png);
+    background-color: #fff;
+    color: #000;
+    background-size: contain;
 }
 
 .menu ul{
@@ -42,11 +46,11 @@ header{
     /* Espaco entre eles*/
     gap: 32px;
     font-size: 32px;
+    color:#292929;
 }
 main{
     flex-grow: 1;
     display: flex;
-    background-color: pink;
 }
 
 .conteudo{
@@ -57,16 +61,18 @@ main{
 }
 .conteudo h1{
     font-size: 96px;
+    color: #a8b589;
 
 }
 .conteudo p{
     width: 80%;
     font-size: 40px;
+    color: #292929;
 }
 .acao button{
     height: 80px;
     width: 300px;
-    background-color: black;
+    background-color: #a8b589;
     color: white;
     font-size: 32px;
 }
@@ -80,13 +86,30 @@ main{
     width: 96px;
     background-color: lightgray;
     border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img1{
+    background-image: url(https://i.pinimg.com/originals/4f/e0/88/4fe08883e2ec5c16ed0e498d38fc72b1.jpg);
+}
+.img2{
+    background-image: url(https://i.pinimg.com/564x/f7/d0/89/f7d089b6e3fc0a1d9f012388a86f2001.jpg);
+}
+.img3{
+    background-image: url(https://i.pinimg.com/736x/3b/6f/8b/3b6f8beae060f78e3d5ad025803c66ff.jpg);
 }
 .destaque{
-    width: 50%
-    
+    width: 50%;
+    background-image: url(https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B86982/04bbcec4-1397-4fad-85f4-611452c85659-bot-86982-egeo-melancia-segredinho-02.jpg);
+    background-color: #fff;
+    color: #000;
+    background-size: contain;
 }
 
 footer{
     height: 100px;
-    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
