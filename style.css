@@ -11,6 +11,7 @@ a {
     color: inherit;
 }
 
+/* Tira a bolinha das listras */ 
 ul, ol, li{
     list-style: none;
 }
@@ -19,11 +20,28 @@ ul, ol, li{
 body{
     height: 100vh;
     display: flex;
+    /* Deixar os objetos empilhados */
     flex-direction: column;
+    padding-inline: 80px;
 }
 header{
     height: 200px;
-    background-color: pink
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 96px;
+    width: 96px;
+    background-color: grey;
+}
+
+.menu ul{
+    display: flex;
+    /* Espaco entre eles*/
+    gap: 32px;
+    font-size: 32px;
 }
 main{
     flex-grow: 1;
