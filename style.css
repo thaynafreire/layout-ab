@@ -1,0 +1,35 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    /* Tirar a linha dos links*/
+    text-decoration: none; 
+    /* Tirar a cor dos links */
+    color: inherit;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+/*fim do reset*/
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 200px;
+    background-color: pink
+}
+main{
+    flex-grow: 1;
+    background-color: red;
+}
+footer{
+    height: 100px;
+    background-color: blue;
+}
