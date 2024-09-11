@@ -45,8 +45,47 @@ header{
 }
 main{
     flex-grow: 1;
-    background-color: red;
+    display: flex;
+    background-color: pink;
 }
+
+.conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.conteudo h1{
+    font-size: 96px;
+
+}
+.conteudo p{
+    width: 80%;
+    font-size: 40px;
+}
+.acao button{
+    height: 80px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+}
+.social{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.social div{
+    height: 96px;
+    width: 96px;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+.destaque{
+    width: 50%
+    
+}
+
 footer{
     height: 100px;
     background-color: blue;
